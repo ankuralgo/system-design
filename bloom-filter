@@ -1,0 +1,14 @@
+#Bloom Filter a Probabilistic data structure
+
+## Introduction
+
+Searching a key in a dataset expected to have complexity of O(1). This can be achieve by simply using HashSet or HashTable. This is very efficient datastructure. 
+However, as data grows either we have to increase the size which will cost memory or we will face more has collision. If data is constantly increasing than time complexity and space complexity would become linear.
+This will defeat the purpose. Therefore we need a solution with optimal space and time complexity. 
+Probabilistic data structures offer constant time complexity and constant space complexity at the expense of providing an answer that is non-deterministic.
+Bloom filter is one of that solution which can fullfill all our need in this scenario. 
+
+
+
+
+
